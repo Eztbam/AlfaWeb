@@ -1,0 +1,17 @@
+
+.boxes {
+    display: flex;
+}
+.square {
+    position: relative;
+    width: 50%;
+    border: 2px;
+    
+  }
+  
+  .square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+  
